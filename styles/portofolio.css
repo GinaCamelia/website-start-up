@@ -1,9 +1,56 @@
-#circle {
+
+ :root {
+    --background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
+    --main-color: #ffb5b5;
+    --secondary-color: #ffcbcb;
+    --box-shadow: box-shadow: 5px 5px 5px #ffb5b5;
+}
+body {
+    background-color: var(--background-color);
+}
+.circle {
     float: left;
-    width: 300px;
+    width: 500px;
     height: 300px;
     margin: 20px;
     shape-outside: circle();
     clip-path: circle();
-    background: lightblue;
+}
+.connection-link {
+    float: left;
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 15px 50px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+.connection-link:hover {
+    background-color: var(--main-color);
+    transition: all 200ms ease-in-out;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+}
+h2 {
+    font-size: 38px;
+    font-family: 'Playfair Display', serif;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    opacity: 0.6
+
 }

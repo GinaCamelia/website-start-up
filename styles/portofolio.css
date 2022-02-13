@@ -10,14 +10,14 @@ body {
     background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
 }
 
-.border {
+/*.border {
     border: 1px solid #F2EBF3;
     max-width: 1000px;
     border-radius: 15px;
     margin: 30px auto;
     box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     padding: 40px;
-}
+}*/
 
 #navigation {
     margin-top: 40px;
@@ -26,8 +26,8 @@ body {
 .name-logo {
 background-color: #80D8DA;
 font-family: 'Playfair Display', serif;
-border-radius: 5px;
-padding: 5px;
+border-radius: 15px 50px;
+padding: 15px;
 }
 
 .nav-item {

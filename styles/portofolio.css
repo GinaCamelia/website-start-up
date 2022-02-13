@@ -64,26 +64,25 @@ a:visited {
     color: black;
 }
 
-#navigation p {
+p {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
 
-#navigation h1 {
+h1 {
     font-size: 48px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     color: var(--second-color);
-    box-shadow: var(--box-shadow);
 }
 
-#navigation h2 {
+h2 {
     font-size: 38px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
 
-#navigation h3 {
+h3 {
     font-family: 'Playfair Display', serif;
     color: var(--second-color);
 }

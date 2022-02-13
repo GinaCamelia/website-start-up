@@ -9,27 +9,32 @@
 body {
     background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
 }
+
 .border {
-    border: 1px solid #dee2e6;
+    border: 1px solid #F2EBF3;
     max-width: 1000px;
+    border-radius: 15px;
     margin: 30px auto;
-    border-radius: 16px;
     box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     padding: 40px;
 }
+
 #navigation {
     margin-top: 40px;
 }
+
 .name-logo {
 background-color: #80D8DA;
 font-family: 'Playfair Display', serif;
 border-radius: 5px;
 padding: 5px;
 }
+
 .nav-item {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
+
 .connection-link {
     display: flex;
     flex-direction: column;
@@ -40,6 +45,7 @@ padding: 5px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+
 .connection-link:hover {
     background-color: #ECEFF6;
     border: 1px solid #80D8DA;
@@ -47,84 +53,102 @@ padding: 5px;
     box-shadow: var(--box-shadow);
     cursor: pointer;
 }
+
 a:link {
     color: black;
     font-weight: 'Poppins', sans-serif;
     font-weight: normal;
 }
+
 a:visited {
     color: black;
 }
-p {
+
+#navigation p {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
 
-h1 {
+#navigation h1 {
     font-size: 48px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     color: var(--second-color);
+    box-shadow: var(--box-shadow);
 }
-h2 {
+
+#navigation h2 {
     font-size: 38px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
 }
-h3 {
+
+#navigation h3 {
     font-family: 'Playfair Display', serif;
     color: var(--second-color);
 }
+
 h5 {
     font-family: 'Playfair Display', serif;
     font-weight: normal;
 }
+
 .yahoo-icon {
     color: var(--main-color);
     font-size: 30px;
 }
+
 .email-link {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
 }
+
 .email-link:hover {
     cursor: pointer;
 }
+
 .instagram-icon {
     color: var(--main-color);
     font-size: 30px;
 }
+
 .instagram-link {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
 }
+
 .instagram-link:hover {
     cursor: pointer;
 }
+
 .linkedin-icon {
     color: var(--main-color);
     font-size: 30px;
 }
+
 .linkedin-link {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
 }
+
 .linkedin-link:hover {
     cursor: pointer;
 }
+
 .github-icon {
     color: var(--main-color);
     font-size: 30px;
 }
+
 .github-link {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
 }
+
 .github-link:hover {
     cursor: pointer;
 }
-

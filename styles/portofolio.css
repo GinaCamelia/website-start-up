@@ -3,6 +3,7 @@
     --main-color: #80D8DA;
     --second-color: #ffaaa5;
     --third-color: #fff;
+    --forth-color: 
     --box-shadow: box-shadow: 5px 5px 5px #ffb5b5;
 }
 body {
@@ -112,6 +113,18 @@ h5 {
     font-weight: 100;
 }
 .linkedin-link:hover {
+    cursor: pointer;
+}
+.github-icon {
+    color: var(--main-color);
+    font-size: 30px;
+}
+.github-link {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.github-link:hover {
     cursor: pointer;
 }
 

@@ -7,10 +7,9 @@
     --box-shadow: box-shadow: 5px 5px 5px #ffb5b5;
 }
 body {
-    background: #F7F2FF;
+    background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
 }
 .border {
-    background: #F7F2FF;
     border: 1px solid #F2EBF3;
     max-width: 1200px;
     border-radius: 15px;
@@ -220,4 +219,10 @@ h5 {
     transition: all 200ms ease-in-out;
     box-shadow: var(--box-shadow);
     cursor: pointer;
+}
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    
 }

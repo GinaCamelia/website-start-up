@@ -240,6 +240,11 @@ h5 {
     margin: 0 auto !important;
     font-size: 10px;
  }
+ @media (min-width: 576px) {
+     .technology .responsive {
+         text-align: left !important;
+     }
+    }
  .technology .row{
    display: flex;
    justify-content: space-evenly;

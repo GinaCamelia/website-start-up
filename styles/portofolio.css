@@ -245,6 +245,11 @@ h5 {
          text-align: left !important;
      }
     }
+    @media (min-width: 767.98px) {
+        .smile {
+            margin-top: 80px;
+        }
+    }
  .technology .row{
    display: flex;
    justify-content: space-evenly;

@@ -248,10 +248,13 @@ h5 {
  .technology .block {
    display: block;
  }
- .technology.rotating {
-   animation: rotating 10s linear infinite ! important;
+ .technology .rotating {
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
  }
- .technology .rounded {
+  .technology .rounded {
    border-radius: 1px !important;
  }
  .technology .pl-3 {
@@ -279,8 +282,4 @@ h5 {
  .technology .col-sm-1 {
    flex: 0 0 25%;
    max-width: 10%;
- }
- .technology .responsive {
-   text-align: left !important;
-   margin: 0 auto;
  }

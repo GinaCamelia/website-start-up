@@ -11,11 +11,9 @@ body {
 }
 
 .border {
-    border: 1px solid #F2EBF3;
+    border: none !important;
     max-width: 1200px;
-    border-radius: 15px;
     margin: 30px auto;
-    box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     padding: 40px;
 }
 

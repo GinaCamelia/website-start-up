@@ -46,6 +46,15 @@ padding: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
+.shecodes-link {
+    text-decoration: none;
+    color: var(--main-color) !important;
+}
+.shecodes-link:hover {
+    color: var(--main-color) !important;
+    transition: all 200ms ease-in-out;
+    text-decoration: underline;
+}
 
 .connection-link {
     display: flex;
